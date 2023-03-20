@@ -1,0 +1,53 @@
+{
+  "name": "mongodb-crud",
+  "version": "1.0.0",
+  "description": "Una aplicacion de tareas para practicar backend con el stack MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "build": "babel src --extensions \".ts,.js\" --out-dir dist --copy-files",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irbicn/task_manager_backend.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Nodejs"
+  ],
+  "author": "Irbicn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irbicn/task_manager_backend/issues"
+  },
+  "homepage": "https://github.com/Irbicn/task_manager_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/morgan": "^1.9.4",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.5"
+  }
+}
